@@ -13,9 +13,8 @@ int main(void)
 	while (asciiChar <= 122)
 	{
 		putchar(asciiChar);
-		putchar('\n');
 		asciiChar++;
 	}
-
+	putchar('\n')
 	return (0);
 }
