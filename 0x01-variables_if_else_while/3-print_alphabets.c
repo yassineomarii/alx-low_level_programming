@@ -8,15 +8,13 @@
 
 int main(void)
 {
-	char asciiChar = 122;
-
-	while (asciiChar >= 65)
+	for (int i = 97; i <= 122; i++)
 	{
-		if (!(asciiChar > 90 && asciiChar < 97))
-		{
-			putchar(asciiChar);
-		}
-		asciiChar--;
+		putchar(i);
+	}
+	for (int j = 65; j <= 90; j++)
+	{
+		putchar(j);
 	}
 	putchar('\n');
 	return (0);
