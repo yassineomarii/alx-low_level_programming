@@ -13,7 +13,7 @@ int main(void)
 	while (asciiChar <= 122)
 	{
 		putchar(asciiChar);
-		putchar("\n");
+		putchar('\n');
 		asciiChar++;
 	}
 
