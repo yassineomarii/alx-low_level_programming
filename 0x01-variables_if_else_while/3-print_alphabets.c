@@ -8,15 +8,15 @@
 
 int main(void)
 {
-	char asciiChar = 65;
+	char asciiChar = 122;
 
-	while (asciiChar <= 122)
+	while (asciiChar >= 65)
 	{
 		if (!(asciiChar > 90 && asciiChar < 97))
 		{
 			putchar(asciiChar);
 		}
-		asciiChar++;
+		asciiChar--;
 	}
 	putchar('\n');
 	return (0);
