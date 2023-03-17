@@ -10,10 +10,10 @@ int main(void)
 {
 	char asciiChar = 97;
 
-	while (asciiChar <= 122)
+	while (asciiChar < 123)
 	{
 		putchar(asciiChar);
-		putchar('\n')
+		putchar('\n');
 		asciiChar++;
 	}
 }
