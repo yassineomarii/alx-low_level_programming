@@ -4,9 +4,7 @@
 /* more headers goes there */
 
 /**
- *  main - Entry point
- *  
- *  Description: Prints wether the random number n is positive, negative, or equals to zero.
+ *  main - Checks if then number n is positive, zero, or negative.
  *
  *  Return: Always 0
  */
