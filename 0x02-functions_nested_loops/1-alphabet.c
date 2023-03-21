@@ -1,9 +1,7 @@
 #include "main.h"
 
 /**
- * main - Prints alphabets in lowercase using _putchar.
- *
- * Return: 0 Always success.
+ * print_alphabet - Prints alphabets in lowercase using _putchar.
  */
 
 void print_alphabet(void)
