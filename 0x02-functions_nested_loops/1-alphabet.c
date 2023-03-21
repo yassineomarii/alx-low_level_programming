@@ -8,9 +8,9 @@
 
 int main(void)
 {
-	int i;
+	char i;
 
-	for (i = 97; i >= 122; i++)
+	for (i = 'a'; i >= 'z'; i++)
 	{
 		_putchar(i);
 	}
