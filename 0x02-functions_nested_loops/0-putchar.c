@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <unistd.h>
 
 /**
  * main - Prints a string.
@@ -8,6 +8,6 @@
 
 int main(void)
 {
-	printf("%cputchar", '_')
+	_putchar("_putchar");
 	return (0);
 }
