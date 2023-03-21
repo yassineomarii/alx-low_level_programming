@@ -5,7 +5,7 @@
  *
  * @n: Takes place as a parameter in the function described above.
  *
- * Retrun: 1 n is greater than 0, 0 n is equal to 0, -1 n is less than 0.
+ * Return: 1 n is greater than 0, 0 n is equal to 0, -1 n is less than 0.
  */
 
 int print_sign(int n)
