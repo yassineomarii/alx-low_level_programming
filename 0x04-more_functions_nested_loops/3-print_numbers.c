@@ -1,0 +1,19 @@
+#include "main.h"
+
+/**
+ * print_numbers - Prints numbers from 1 to 9.
+ *
+ * Rturn: 0 (Success).
+ */
+
+void print_numbers(void)
+{
+	int i;
+
+	for (i = 49; i < 58; i++)
+	{
+		_putchar(i);
+	}
+	_putchar('\n');
+	return (0);
+}
