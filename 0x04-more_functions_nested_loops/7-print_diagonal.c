@@ -6,7 +6,7 @@
  * @n: number of times the line should be printed.
  */
 
-void print_line(void)
+void print_diagonal(int n)
 {
 	int i;
 
