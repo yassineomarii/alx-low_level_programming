@@ -3,7 +3,10 @@
 /**
  * swap_int - Swaps interges value.
  *
- * @a, @b: Two integers.
+ * @a: Integer.
+ * @b: Integer.
+ *
+ * Return: No return value.
  */
 
 int swap_int(int *a, int *b)
