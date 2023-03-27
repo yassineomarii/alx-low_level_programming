@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print_rev - Prints a string in reverse. 
+ * print_rev - Prints a string in reverse.
  *
  * @s: A string.
  */
 
-int print_rev(char *s)
+void print_rev(char *s)
 {
 	int lastIndex;
 
