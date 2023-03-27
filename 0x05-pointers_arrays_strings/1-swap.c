@@ -5,11 +5,9 @@
  *
  * @a: Integer.
  * @b: Integer.
- *
- * Return: No return value.
  */
 
-int swap_int(int *a, int *b)
+void swap_int(int *a, int *b)
 {
 	olda = *a;
 	*a = *b;
