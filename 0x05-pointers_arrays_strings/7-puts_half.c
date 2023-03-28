@@ -6,9 +6,9 @@
  * @str: A string.
  */
 
-void main(char *str)
+void puts_half(char *str)
 {
-	int lastIndex, i;
+	int i;
 
 	for (i = 0; str[i] != '\0'; i++)
 		;
