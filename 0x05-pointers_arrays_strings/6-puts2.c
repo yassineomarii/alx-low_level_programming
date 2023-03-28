@@ -6,7 +6,7 @@
  * @str: A string.
  */
 
-void _puts2(void)
+void _puts2(char *str)
 {
 	int i;
 
