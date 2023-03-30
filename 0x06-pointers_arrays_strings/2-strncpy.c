@@ -8,7 +8,7 @@
  * @n: Input value.
  */
 
-char *_strcat(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
 	int i;
 
@@ -18,7 +18,7 @@ char *_strcat(char *dest, char *src, int n)
 		dest[i] = src[i];
 		i++;
 	}
-	while (j < n)
+	while (i < n)
 	{
 		dest[i] = '\n';
 		i++;
